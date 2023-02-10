@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-color {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  background-size: cover;
+  height: 120vh;
+}
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.app-heading {
+  font-size: 30px;
+  font-family: Bree Serif;
+  font-weight: bold;
+}
+.input-section {
+  display: flex;
+  flex-direction: row;
+}
+.input {
+  height: 5vh;
+  width: 37vh;
+  background-color: transparent;
+  border-radius: 6px;
+}
+.search-img {
+  height: 5vh;
+}
+.tabItem-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.line {
+  color: #7b8794;
+  margin-left: 80vh;
+  margin-right: 75vh;
+  margin-top: -5vh;
+}
+.appItem-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 120vh;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
